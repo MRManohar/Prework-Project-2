@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Marck+Script&family=Racing+Sans+One&family=Titan+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    background: #edeef0;
+}
+
+.slogo {
+    width: 17px;
+    height: 17px;
+    border-color: black;
+    align-content: center;
+}
+
+.navs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navs li {
+    display: inline;
+}
+
+.navs a {
+    display: inline-block;
+    padding: 8px;
+}
+
+.nav-link {
+    font-size: 1.0em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+header {
+    background-color: yellow;
+}
+
+.real {
+    font-size: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.sphoto {
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+}
+
+.div-real {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+}
+
+.add {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.and {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Concert One';
+    padding: 5px;
+}
+
+.texts {
+    display: flex;
+    justify-content: center;
+}
+
+.iago {
+    color: mediumblue;
+    border: black;
+    font-family: 'Racing Sans One';
+    font-size: 2em;
+}
+
+.lucca {
+
+    background-color: black;
+    color: white;
+    width: 60px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.daniel {
+    color: royalblue;
+    border: black;
+    font-family: 'Racing Sans One';
+    font-size: 2em;
+
+}
+
+.jieying {
+    color: darkgoldenrod;
+    border: black;
+    font-family: 'Marck Script';
+    font-size: 2em;
+}
+
+.rebecca {
+    color: saddlebrown;
+    border: black;
+    font-family: 'Racing Sans One';
+    font-size: 2em;
+}
+
+.josh {
+    color: orangered;
+    border: black;
+    font-family: 'Candal';
+    font-size: 2em;
+}
+
+.txt {
+    font-size: 12px;
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 30px;
+    width: 15%;
+}
+
+.con {
+    background: #edeef0;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    width: 100%;
+    padding: 5px;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-bottom: 7px;
+}
+
+.subClass {
+    font-weight: 200;
+    list-style: none;
+    font-size: 1em;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.subClass li {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+select {
+    width: 150px;
+    margin: 5px;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    margin: 10px 0;
+    margin-left: 10px;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: white;
+    margin-left: 100px;
+}
+
+.foot li {
+    margin-right: 30px;
+}
